@@ -1,0 +1,16 @@
+
+[1mFrom:[0m /mnt/c/Users/DBA_RAHEL/flatironRahel/mod-one-one/ruby-oo-object-relationships-has-many-lab/lib/author.rb @ line 21 Author#add_post:
+
+    [1;34m19[0m: [32mdef[0m [1;34madd_post[0m(post) [1;34m#<Post:0x00007fffc60a6108 @title="Hello World", @author=nil>[0m
+    [1;34m20[0m: 
+ => [1;34m21[0m:   binding.pry
+    [1;34m22[0m:   [32mif[0m post.author = [1;36mnil[0m     
+    [1;34m23[0m:     post.author = [1;36mself[0m 
+    [1;34m24[0m:     binding.pry
+    [1;34m25[0m:   [32melse[0m
+    [1;34m26[0m:     [32mreturn[0m post.author
+    [1;34m27[0m: 
+    [1;34m28[0m: 
+    [1;34m29[0m:   [32mend[0m 
+    [1;34m30[0m: [32mend[0m 
+
